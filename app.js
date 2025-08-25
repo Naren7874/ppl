@@ -6,7 +6,7 @@ import aiRoutes from "./routes/ai.js";
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:5173', // Allow your frontend origin
+  origin: 'https://ppl-lime.vercel.app', // Allow your frontend origin
   credentials: true, // If you use cookies/auth
 }));
 // Middleware
